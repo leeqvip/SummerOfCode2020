@@ -34,3 +34,39 @@ The current progress is: https://dashboard.casbin.org/. Source code: https://git
 #### Mentor
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+
+### 2. Casbin for Node.js
+
+#### Ideas 
+
+1. Adapters(https://casbin.org/docs/en/adapters)
+
+**Idea**
+
+- Implement PostgreSQL adapter
+- Implement MySQL adapter   
+- Implement SQL Server adapter
+
+**Difficulty** 
+
+Easy
+
+2. RBAC links
+
+**Idea**
+
+We plan to build RBAC incrementally when the policy changes.
+
+**Difficulty** 
+
+Medium-Hard
+
+#### Requirements
+
+1. Node.js
+2. TypeScript
+
+#### Mentor
+
+[Zixuan Liu](https://github.com/nodece), Casbin member
