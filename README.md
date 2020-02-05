@@ -34,3 +34,20 @@ The current progress is: https://dashboard.casbin.org/. Source code: https://git
 #### Mentor
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### 2. A PHP extension for Casbin, implemented by C/C ++.
+
+#### Description
+
+We now have a version implemented by PHP language: [PHP-Casbin](https://github.com/php-casbin/php-casbin), but we prefer to make a PHP extension through C/C ++ to improve performance.
+It needs to implement the full functionality of Casbin.
+
+#### Requirements
+
+1. C/C++
+2. PHP
+3. Casbin
+
+#### Mentor
+
+[techoner](https://github.com/techoner)
