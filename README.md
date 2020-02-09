@@ -70,3 +70,58 @@ Medium-Hard
 #### Mentor
 
 [Zixuan Liu](https://github.com/nodece), Casbin member
+
+
+### 3. Casbin for Rust
+
+#### Ideas
+
+1. [Tokio](https://github.com/tokio-rs/tokio) async/await runtime and fully asynchronous adapter
+
+**Idea**
+
+- Make async-std runtime (the current one) a feature `runtime-async-std` and enables it by default.
+- Implement the new feature `runtime-tokio` which use tokio as the executor of async/await.
+- Implement a fully asynchronous adapter: sqlx-adapter using [sqlx](https://github.com/launchbadge/sqlx).
+
+
+**Difficulty**
+
+Easy
+
+2. Actix actor and actix-web middleware using **RBAC with domain**
+
+**Idea**
+
+- Implement an actix actor which accepts messages of rbac request (subject, domain, object, action). The actor will return the result of enforcing.
+- Implement an actix-web middleware which reads JWT token from HTTP authorization header (To make it simple, JWT token = \<username\>.\<domain\>)
+and sends rbac request (subject, domain, object, action) to actix actor for authorization. The middleware wll block the request if actix actor denied the request.
+
+**Difficulty**
+
+Medium hard
+
+3. Redis TTL cache
+
+- Design **Cache** trait, make **CachedEnforcer** being able to accept external cache.
+- Implement redis TTL cache.
+
+**Difficulty**
+
+Easy
+
+4. Logger system using env_logger
+
+- Design **Logger** trait and implement the default logger which implements **Logger** trait.
+- Logger can show if the enforcing result is cached or not by the prefix **[Cache]**.
+- Logger support levels (info, debug, error...). Logs can be filtered by specific Level.
+- Logs are by default colorful.
+
+**Difficulty**
+
+Easy medium
+
+
+#### Mentor
+
+[Cheng JIANG](https://github.com/GopherJ), casbin member
