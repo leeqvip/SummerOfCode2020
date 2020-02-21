@@ -83,7 +83,7 @@ Medium-Hard
 
 #### Mentor
 
-[Zixuan Liu](https://github.com/nodece), Casbin member
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 ### 3. A PHP extension for Casbin, implemented by C/C ++.
 
