@@ -1,8 +1,8 @@
-# Google Summer Of Code 2020 (GSoC)
+# Google Summer Of Code 2020 for Casbin
 
 ## What is Google Summer Of Code?
 
-Google Summer of Code is a global program held by Google to bring students into open source software development. Students work with an open source organization on a 3 month programming project during their break from school. See more details at: https://summerofcode.withgoogle.com/
+Google Summer of Code (GSoC) is a global program held by Google to bring students into open source software development. Students work with an open source organization on a 3 month programming project during their break from school. See more details at: https://summerofcode.withgoogle.com/
 
 ## Congratulations!
 
