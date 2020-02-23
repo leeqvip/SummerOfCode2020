@@ -25,7 +25,7 @@ The student will be more likely selected if he/she:
 
 ## Idea list
 
-### 0. Casbin Core Engine
+### Casbin Core Engine
 
 #### Description
 
@@ -48,8 +48,34 @@ Some issues to work on:
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
+### Casbin for Web Frontend
 
-### 1. Casbin Dashboard
+Quite a lot of users want to use Casbin to control frontend UI elements, like:
+
+1. Some tabs are only visible to admin users.
+2. Some buttons should be grayed-out for users with no permission to click them.
+3. A list can only show filtered items based on a user's permission rights.
+
+Currently, Node-Casbin already supports to run in browser. But the API like `enforce()` is still not friendly to frontend developers to control the visibility of a button. So we need:
+
+1. A frontend developer friendly API for authorization based on Casbin, e.g., `isVisible(button_id)`
+2. A mechanism to load model and policy data from backend. Of course we assume the backend also uses a Casbin implementation.
+
+The current progress is: https://github.com/casbin/casbin.js
+
+#### Requirements
+
+1. Javascript
+2. Node-Casbin
+3. At least one backend language like Golang
+
+#### Mentor
+
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
+[Zixuan Liu](https://github.com/nodece), Casbin member
+
+
+### Casbin Dashboard
 
 #### Description
 
@@ -74,7 +100,7 @@ The current progress is: https://dashboard.casbin.org/. Source code: https://git
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 
-### 2. Casbin for Node.js
+### Casbin for Node.js
 
 #### Ideas 
 
@@ -107,9 +133,9 @@ Medium-Hard
 
 #### Mentor
 
-[Yang Luo](https://github.com/hsluoyz), Casbin founder
+[Zixuan Liu](https://github.com/nodece), Casbin member
 
-### 3. A PHP extension for Casbin, implemented by C/C ++.
+### A PHP extension for Casbin, implemented by C/C ++.
 
 #### Description
 
@@ -126,7 +152,7 @@ It needs to implement the full functionality of Casbin.
 
 [techoner](https://github.com/techoner)
 
-### 4. Casbin for Rust
+### Casbin for Rust
 
 #### Ideas
 
