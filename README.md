@@ -25,6 +25,30 @@ The student will be more likely selected if he/she:
 
 ## Idea list
 
+### 0. Casbin Core Engine
+
+#### Description
+
+Extend the Casbin model/policy grammar to support more features in Casbin core engine. This will first be done in Golang Casbin. Possibly applied to other language implementations.
+
+Some issues to work on:
+
+1. support pattern function in 3rd args of g: https://github.com/casbin/casbin/issues/337
+2. Resolve policy conflicts: https://github.com/casbin/casbin/issues/338
+3. Scaling ABAC Rules: https://github.com/casbin/casbin/issues/354
+4. Explain enforcement by informing matched rules: https://github.com/casbin/casbin/issues/355
+5. Make GetImplicitPermissionsForUser Deep: https://github.com/casbin/casbin/issues/357
+
+#### Requirements
+
+1. Golang
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+
 ### 1. Casbin Dashboard
 
 #### Description
