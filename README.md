@@ -80,7 +80,6 @@ The current progress is: https://github.com/casbin/casbin.js
 
 [Caleb Faruki](https://github.com/calebfaruki), Casbin member
 
-
 ### Casbin Dashboard
 
 #### Description
@@ -105,20 +104,19 @@ The current progress is: https://dashboard.casbin.org/. Source code: https://git
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
-
 ### Node-Casbin
 
-#### Ideas 
+#### Ideas
 
 1. Adapters(https://casbin.org/docs/en/adapters)
 
 **Idea**
 
 - Implement PostgreSQL adapter
-- Implement MySQL adapter   
+- Implement MySQL adapter
 - Implement SQL Server adapter
 
-**Difficulty** 
+**Difficulty**
 
 Easy
 
@@ -128,7 +126,7 @@ Easy
 
 We plan to build RBAC incrementally when the policy changes.
 
-**Difficulty** 
+**Difficulty**
 
 Medium-Hard
 
@@ -140,7 +138,6 @@ Medium-Hard
 #### Mentor
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
-
 
 ### A PHP extension for Casbin, implemented by C/C ++.
 
@@ -171,7 +168,6 @@ It needs to implement the full functionality of Casbin.
 - Implement the new feature `runtime-tokio` which use tokio as the executor of async/await.
 - Implement a fully asynchronous adapter: sqlx-adapter using [sqlx](https://github.com/launchbadge/sqlx).
 
-
 **Difficulty**
 
 Easy
@@ -182,7 +178,7 @@ Easy
 
 - Implement an actix actor which accepts messages of rbac request (subject, domain, object, action). The actor will return the result of enforcing.
 - Implement an actix-web middleware which reads JWT token from HTTP authorization header (To make it simple, JWT token = \<username\>.\<domain\>)
-and sends rbac request (subject, domain, object, action) to actix actor for authorization. The middleware wll block the request if actix actor denied the request.
+  and sends rbac request (subject, domain, object, action) to actix actor for authorization. The middleware wll block the request if actix actor denied the request.
 
 **Difficulty**
 
@@ -208,7 +204,25 @@ Easy
 
 Easy medium
 
-
 #### Mentor
 
 [Cheng JIANG](https://github.com/GopherJ), casbin member
+
+### Casbin for .net core
+
+**Idea**
+
+1. Adapter
+
+- Implement Entity Framework Core Adapter;
+
+2. Restful API
+
+- Implement Restful API in ASP.NET Core MVC
+
+3. Implement IWatcher interface;
+
+#### Requirements
+
+1. C#
+2. .net core
