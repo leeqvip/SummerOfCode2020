@@ -23,7 +23,14 @@ The student will be more likely selected if he/she:
 5. Provide demo sites for the previous projects if possible.
 6. Provide a resume/CV.
 
-## Idea list
+## Ideas
+
+- [Casbin Core Engine](#casbin-core-engine)
+- [Casbin.js](#casbinjs)
+- [Casbin Dashboard](#casbin-dashboard)
+- [Node-Casbin](#node-casbin)
+- [A PHP extension for Casbin, implemented by C/C ++](#a-php-extension-for-casbin-implemented-by-cc-)
+- [Casbin for Rust](#casbin-for-rust)
 
 ### Casbin Core Engine
 
@@ -48,9 +55,9 @@ Some issues to work on:
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
-### Casbin for Web Frontend
+### Casbin.js
 
-Quite a lot of users want to use Casbin to control frontend UI elements, like:
+Quite a lot of users want to use Casbin to control web frontend UI elements, like:
 
 1. Some tabs are only visible to admin users.
 2. Some buttons should be grayed-out for users with no permission to click them.
@@ -71,8 +78,7 @@ The current progress is: https://github.com/casbin/casbin.js
 
 #### Mentor
 
-[Yang Luo](https://github.com/hsluoyz), Casbin founder
-[Zixuan Liu](https://github.com/nodece), Casbin member
+[Caleb Faruki](https://github.com/calebfaruki), Casbin member
 
 
 ### Casbin Dashboard
@@ -100,7 +106,7 @@ The current progress is: https://dashboard.casbin.org/. Source code: https://git
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 
-### Casbin for Node.js
+### Node-Casbin
 
 #### Ideas 
 
@@ -133,7 +139,8 @@ Medium-Hard
 
 #### Mentor
 
-[Zixuan Liu](https://github.com/nodece), Casbin member
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
+
 
 ### A PHP extension for Casbin, implemented by C/C ++.
 
