@@ -25,12 +25,28 @@ The student will be more likely selected if he/she:
 
 ## Ideas
 
+- [Casbin for C/C++](#casbin-for-cc)
 - [Casbin Core Engine](#casbin-core-engine)
 - [Casbin.js](#casbinjs)
 - [Casbin Dashboard](#casbin-dashboard)
 - [Node-Casbin](#node-casbin)
 - [A PHP extension for Casbin, implemented by C/C ++](#a-php-extension-for-casbin-implemented-by-cc-)
 - [Casbin for Rust](#casbin-for-rust)
+
+### Casbin for C/C++
+
+#### Description
+
+Port Golang Casbin into C/C++. We call it `casbin-cpp`. It should work on all primary OSs, like Windows, Linux, macOS. Most of Casbin's functionalities (for example 90%) should work. 
+
+On Windows, it should build on Visual Studio. On Linux, gcc should work. About the test cases, I think maybe Google-Test is a good choice.
+
+The current progress is: https://github.com/casbin/casbin-cpp
+
+#### Requirements
+
+1. C/C++
+2. Golang (only need to read code)
 
 ### Casbin Core Engine
 
