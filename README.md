@@ -25,6 +25,7 @@ The student will be more likely selected if he/she:
 
 ## Ideas
 
+- [Casbin for .NET](#casbin-for-net)
 - [Casbin for C/C++](#casbin-for-cc)
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
 - [Casbin for Java](#casbin-for-java)
@@ -33,6 +34,25 @@ The student will be more likely selected if he/she:
 - [Node-Casbin](#node-casbin)
 - [A PHP extension for Casbin, implemented by C/C ++](#a-php-extension-for-casbin-implemented-by-cc-)
 - [Casbin for Rust](#casbin-for-rust)
+
+
+### Casbin for .NET
+
+#### Description
+
+There are still a lot of work to do for Casbin.NET, like adapters for databases, ORMs, middlewares for web frameworks. These are very important for Casbin ecosystem.
+
+Some issues to work on: https://github.com/casbin/Casbin.NET/issues
+
+#### Requirements
+
+1. C#
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[huazhikui](https://github.com/huazhikui), Casbin member
+
 
 ### Casbin for C/C++
 
@@ -243,22 +263,3 @@ Easy medium
 #### Mentor
 
 [Cheng JIANG](https://github.com/GopherJ), casbin member
-
-### Casbin for .net core
-
-**Idea**
-
-1. Adapter
-
-- Implement Entity Framework Core Adapter;
-
-2. Restful API
-
-- Implement Restful API in ASP.NET Core MVC
-
-3. Implement IWatcher interface;
-
-#### Requirements
-
-1. C#
-2. .net core
