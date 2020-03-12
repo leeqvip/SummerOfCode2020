@@ -26,7 +26,8 @@ The student will be more likely selected if he/she:
 ## Ideas
 
 - [Casbin for C/C++](#casbin-for-cc)
-- [Casbin Core Engine](#casbin-core-engine)
+- [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
+- [Casbin for Java](#casbin-for-java)
 - [Casbin.js](#casbinjs)
 - [Casbin Dashboard](#casbin-dashboard)
 - [Node-Casbin](#node-casbin)
@@ -48,7 +49,7 @@ The current progress is: https://github.com/casbin/casbin-cpp
 1. C/C++
 2. Golang (only need to read code)
 
-### Casbin Core Engine
+### Casbin Core Engine (Golang)
 
 #### Description
 
@@ -65,6 +66,25 @@ Some issues to work on:
 #### Requirements
 
 1. Golang
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for Java
+
+#### Description
+
+In Java world, Apache Shiro and Spring Security are very popular security frameworks. We need to find ways to wrap jCasbin into a middleware of the above both, so Shiro and Spring users can use jCasbin without much migration efforts.
+
+Another work is to develop jCasbin' middleware for most popular Java web frameworks, like how we did it for Golang: https://casbin.org/docs/en/middlewares
+
+Some issues to work on: https://github.com/casbin/jcasbin/issues 
+
+#### Requirements
+
+1. Java
 2. Other languages that Casbin is written with
 
 #### Mentor
