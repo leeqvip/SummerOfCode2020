@@ -34,7 +34,7 @@ The student will be more likely selected if he/she:
 - [Node-Casbin](#node-casbin)
 - [A PHP extension for Casbin, implemented by C/C ++](#a-php-extension-for-casbin-implemented-by-cc-)
 - [Casbin for Rust](#casbin-for-rust)
-
+- [Casbin for Python](#casbin-for-python)
 
 ### Casbin for .NET
 
@@ -263,3 +263,22 @@ Easy medium
 #### Mentor
 
 [Cheng JIANG](https://github.com/GopherJ), casbin member
+
+### Casbin for Python
+
+#### Description
+
+1. At present, compared to Casbin for Golang, `Pycasbin` is not very perfect, especially the lack of RBAC API, so we hope that `Pycasbin` can fully realize the function of Casbin (Go).
+2. `PyCasbin`'s adaptation to various frameworks, such as `Django`, `Tornado`, etc.
+
+Pycasbin organization: https://github.com/pycasbin
+Some issues to work on: https://github.com/casbin/pycasbin/issues
+
+#### Requirements
+
+1. Python
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[techoner](https://github.com/techoner), Casbin member
