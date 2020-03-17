@@ -162,34 +162,17 @@ The current progress is: https://dashboard.casbin.org/. Source code: https://git
 
 ### Node-Casbin
 
-#### Ideas
+#### Description
 
-1. Adapters(https://casbin.org/docs/en/adapters)
+Node-Casbin has made good progress on the Node.js platform, but we still need to work hard to help Casbin become the most popular identity authorization library in the world.
 
-**Idea**
-
-- Implement PostgreSQL adapter
-- Implement MySQL adapter
-- Implement SQL Server adapter
-
-**Difficulty**
-
-Easy
-
-2. RBAC links
-
-**Idea**
-
-We plan to build RBAC incrementally when the policy changes.
-
-**Difficulty**
-
-Medium-Hard
+tracking issues to work on: https://github.com/casbin/node-casbin/issues
 
 #### Requirements
 
 1. Node.js
-2. TypeScript
+2. Typescript
+3. SQL
 
 #### Mentor
 
