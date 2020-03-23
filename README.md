@@ -34,7 +34,7 @@ The student will be more likely selected if he/she:
 - [Casbin.js](#casbinjs)
 - [Casbin Dashboard](#casbin-dashboard)
 - [Node-Casbin](#node-casbin)
-- [A PHP extension for Casbin, implemented by C/C ++](#a-php-extension-for-casbin-implemented-by-cc-)
+- [Casbin for PHP](#casbin-for-php)
 - [Casbin for Rust](#casbin-for-rust)
 - [Casbin for Python](#casbin-for-python)
 
@@ -180,22 +180,28 @@ tracking issues to work on: https://github.com/casbin/node-casbin/issues
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
-### A PHP extension for Casbin, implemented by C/C ++.
+### Casbin for PHP 
 
 #### Description
 
-We now have a version implemented by PHP language: [PHP-Casbin](https://github.com/php-casbin/php-casbin), but we prefer to make a PHP extension through C/C ++ to improve performance.
-It needs to implement the full functionality of Casbin.
+**[PHP-Casbin](https://github.com/php-casbin/php-casbin) Enhancement**:
+
+1. Full implementation of Casbin(go) by PHP, fix [issues](https://github.com/php-casbin/php-casbin/issues).
+2. Improve some [extensions](https://github.com/php-casbin).
+
+**A PHP extension for Casbin, implemented by C/C ++**
+
+We now have a version implemented by PHP language: [PHP-Casbin](https://github.com/php-casbin/php-casbin), but we prefer to make a PHP extension through C/C++ to improve performance. It needs to implement the full functionality of Casbin.
 
 #### Requirements
 
-1. C/C++
-2. PHP
-3. Casbin
+1. PHP
+2. Casbin
+3. C/C++
 
 #### Mentor
 
-[techoner](https://github.com/techoner)
+[techoner](https://github.com/techoner), Casbin member
 
 ### Casbin for Rust
 
